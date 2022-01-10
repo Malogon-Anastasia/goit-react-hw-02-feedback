@@ -1,8 +1,8 @@
 import PropTypes from "prop-types";
-// import './Statistics.scss';
+import { StatisticsList } from "./Statistics.styled";
 
 const Statistics = ({ good, neutral, bad, total, positiveFeedback }) => (
-  <ul className="statistics">
+  <StatisticsList>
     <li className="statistics__item">Good: {good}</li>
     <li className="statistics__item">Neutral: {neutral}</li>
     <li className="statistics__item">Bad: {bad}</li>
@@ -10,7 +10,7 @@ const Statistics = ({ good, neutral, bad, total, positiveFeedback }) => (
     <li className="statistics__item">
       Positive feedback: {positiveFeedback} %
     </li>
-  </ul>
+  </StatisticsList>
 );
 
 Statistics.propTypes = {
