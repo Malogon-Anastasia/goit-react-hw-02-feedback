@@ -1,15 +1,15 @@
 import PropTypes from "prop-types";
-import { FeedbackOptionsList } from "./FeedbackOptions.styled";
+import { OptionsButton } from "./FeedbackOptions.styled";
 
 export default function FeedbackOptions({ options, clickFn }) {
   return (
-    <FeedbackOptionsList>
+    <div>
       {options.map((option) => (
-        <button type="button" key={option} id={option} onClick={clickFn}>
+        <OptionsButton type="button" key={option} id={option} onClick={clickFn}>
           {option}
-        </button>
+        </OptionsButton>
       ))}
-    </FeedbackOptionsList>
+    </div>
   );
 }
 FeedbackOptions.defaultProps = {
