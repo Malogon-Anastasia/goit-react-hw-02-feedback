@@ -7,7 +7,7 @@ padding: 5px 25px;
     border-radius: 3px;
     border: 1px solid midnightblue;
     box-shadow: 5px 5px 15px 5px #5c5858;
-    font-weight: 700;
+    font-weight: 900;
     cursor: pointer;
 
     
