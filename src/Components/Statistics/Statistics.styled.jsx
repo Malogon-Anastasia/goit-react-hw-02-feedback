@@ -12,3 +12,8 @@ box-shadow: 5px 5px 15px 5px #5c5858;
     transform: scale(1.1);
   }
 `
+
+export const StatisticsItem = styled.li`
+padding: 5px 5px;
+
+`

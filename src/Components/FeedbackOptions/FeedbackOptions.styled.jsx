@@ -12,7 +12,7 @@ padding: 5px 25px;
 
     
 &:hover {
-    background-color: #bca8f7;
+    background-color: #a4e043a4;
     transform: scale(1.1);
   }
 `
