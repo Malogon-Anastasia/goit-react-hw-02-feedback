@@ -7,10 +7,9 @@ padding-left: 10px;
 width: 300px;
 box-shadow: 5px 5px 15px 5px #5c5858;
   border-radius: 10px;
-  background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
-  color: white;
   font-family: 'Montserrat', sans-serif;
-text-transform: uppercase;
+  font-weight: 700;
+color: #3e72f7bf;
 letter-spacing: 2px;
 
 &:hover {

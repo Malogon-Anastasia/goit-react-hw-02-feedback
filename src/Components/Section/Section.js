@@ -1,11 +1,11 @@
 import PropTypes from "prop-types";
-import { TitleStyles } from "./Section.styled";
+import { TitleStyles, SectionStyles } from "./Section.styled";
 
 const Section = ({ title, children }) => (
-  <section>
+  <SectionStyles>
     <TitleStyles>{title}</TitleStyles>
     {children}
-  </section>
+  </SectionStyles>
 );
 
 Section.defaultProps = {
