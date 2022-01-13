@@ -1,9 +1,9 @@
 import PropTypes from "prop-types";
-// import './Section.scss';
+import { TitleStyles } from "./Section.styled";
 
 const Section = ({ title, children }) => (
   <section>
-    <h2>{title}</h2>
+    <TitleStyles>{title}</TitleStyles>
     {children}
   </section>
 );
