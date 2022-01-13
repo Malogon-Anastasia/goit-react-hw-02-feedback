@@ -7,7 +7,7 @@ padding-left: 10px;
 width: 300px;
 font-family: 'Montserrat', sans-serif;
 font-weight: 700;
-color: #3e72f7bf;
+color: #0f508ceb;
 letter-spacing: 2px;
 `
 
