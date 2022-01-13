@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 
 export const StatisticsList = styled.ul`
+margin: auto;
 list-style: none;
 font-weight: bold;
 padding-left: 10px;

@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 
 export const OptionsButton = styled.button`
+margin: auto;
 padding: 5px 25px;
     margin-right: 20px;
     background-color: white;
